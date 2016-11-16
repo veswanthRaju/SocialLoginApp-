@@ -18,15 +18,15 @@
         public const string MICROSOFT = "Microsoft";
 
         //** For Facebook **//
-        public static string FB_APPID = "1784409555139539";
+        public static string FB_APPID = "Your Id here";
         public static string FB_SCOPE = "";
         public static string FB_AUTHURL = "https://m.facebook.com/dialog/oauth/";
         public static string FB_REDIRECTURL= "http://www.facebook.com/connect/login_success.html";
         public static string FB_REQUESTURL = "https://graph.facebook.com/me?fields=id,name,email,picture.type(large)";
         
         //** For Twitter **//
-        public static string TWITTER_KEY = "H2oihEYWwAKntjhwSc8IWodhA";
-        public static string TWITTE_SECRET = "wlrlTLfJnetrKx9DLPyKHUsaDfsWtNBBzoQHSz6LLJ2Ywn8Fd9";        
+        public static string TWITTER_KEY = "Your key here";
+        public static string TWITTE_SECRET = "Your secret here";        
         public static string TWITTE_REQ_TOKEN = "https://api.twitter.com/oauth/request_token";
         public static string TWITTER_AUTH = "https://api.twitter.com/oauth/authorize";
         public static string TWITTER_ACCESS_TOKEN = "https://api.twitter.com/oauth/access_token";
@@ -34,14 +34,14 @@
         public static string TWITTER_REQUESTURL = "https://api.twitter.com/1.1/account/verify_credentials.json";
         
         //** For Gmail **//
-        public static readonly string GMAIL_ID = "464669784076-tmfnldo5lpf87ll6hli42e5a60a6m3hr.apps.googleusercontent.com";
+        public static readonly string GMAIL_ID = "***********.apps.googleusercontent.com";
         public static readonly string GMAIL_SCOPE = "https://www.googleapis.com/auth/userinfo.email";
         public static readonly string GMAIL_AUTH = "https://accounts.google.com/o/oauth2/auth";
         public static readonly string GMAIL_REDIRECTURL = "https://www.googleapis.com/plus/v1/people/me";
         public static readonly string GMAIL_REQUESTURL = "https://www.googleapis.com/oauth2/v2/userinfo";
 
         //** For Microsoft **//
-        public static string MS_ID = "82cfe9f9-1746-4554-8920-8ef82e9d610b";
+        public static string MS_ID = "Your Id here";
         public static string MS_SCOPE = "https://graph.microsoft.com/user.read";
         public static string MS_AUTHURL = "https://login.microsoftonline.com/common/oauth2/V2.0/authorize";
         public static string MS_REDIRECTURL = "urn:ietf:wg:oauth:2.0:oob";
